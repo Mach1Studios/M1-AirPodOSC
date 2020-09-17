@@ -27,7 +27,7 @@ let myRedColor : UIColor = UIColor(red:1.0, green:0, blue:0, alpha:1.0)
 let myBlackColor : UIColor = UIColor(red:1.0, green:1.0, blue:1.0, alpha:1.0)
 
 @available(iOS 14.0, *)
-class ViewController: UIViewController, CMHeadphoneMotionManagerDelegate
+class ViewController: UITableViewController, CMHeadphoneMotionManagerDelegate
  {
     
     @IBOutlet var pitchValue: UILabel!
@@ -64,20 +64,24 @@ class ViewController: UIViewController, CMHeadphoneMotionManagerDelegate
                 print(motion)
                 
                 if (yawEnabled){
-                    degreesYaw = (motion?.attitude.yaw)!
+                    degreesYaw = -(motion?.attitude.yaw)! * 180 / Double.pi
                 } else {
                     degreesYaw = 0;
                 }
                 if (pitchEnabled){
-                    degreesPitch = (motion?.attitude.pitch)!
+                    degreesPitch = (motion?.attitude.pitch)! * 180 / Double.pi
                 } else {
                     degreesPitch = 0;
                 }
                 if (rollEnabled){
-                    degreesRoll = (motion?.attitude.roll)!
+                    degreesRoll = (motion?.attitude.roll)! * 180 / Double.pi
                 } else {
                     degreesRoll = 0;
                 }
+                
+                self.yawValue.text = "\(degreesYaw)"
+                self.pitchValue.text = "\(degreesPitch)"
+                self.rollValue.text = "\(degreesRoll)"
                 
                 let message = OSCMessage(
                     OSCAddressPattern("/orientation"),
@@ -127,4 +131,3 @@ extension ViewController: UITextFieldDelegate {
     }
     
 }
-
