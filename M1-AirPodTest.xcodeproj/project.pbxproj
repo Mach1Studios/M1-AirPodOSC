@@ -13,9 +13,12 @@
 		A44E597D2514033700EA3A5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44E597B2514033700EA3A5E /* Main.storyboard */; };
 		A44E597F2514033800EA3A5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A44E597E2514033800EA3A5E /* Assets.xcassets */; };
 		A44E59822514033800EA3A5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44E59802514033800EA3A5E /* LaunchScreen.storyboard */; };
+		D0AA33745E7B686799FFEEF3 /* Pods_M1_AirPodTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E846771230E55EB10645480A /* Pods_M1_AirPodTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1FEF3F041894BD6801544BC4 /* Pods-M1-AirPodTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M1-AirPodTest.debug.xcconfig"; path = "Target Support Files/Pods-M1-AirPodTest/Pods-M1-AirPodTest.debug.xcconfig"; sourceTree = "<group>"; };
+		3CC629D0A73C7C6107D8788C /* Pods-M1-AirPodTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M1-AirPodTest.release.xcconfig"; path = "Target Support Files/Pods-M1-AirPodTest/Pods-M1-AirPodTest.release.xcconfig"; sourceTree = "<group>"; };
 		A44E59722514033700EA3A5E /* M1-AirPodTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "M1-AirPodTest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A44E59752514033700EA3A5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A44E59772514033700EA3A5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		A44E597E2514033800EA3A5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A44E59812514033800EA3A5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A44E59832514033800EA3A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E846771230E55EB10645480A /* Pods_M1_AirPodTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M1_AirPodTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0AA33745E7B686799FFEEF3 /* Pods_M1_AirPodTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A17BE773BE694586CC084F26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FEF3F041894BD6801544BC4 /* Pods-M1-AirPodTest.debug.xcconfig */,
+				3CC629D0A73C7C6107D8788C /* Pods-M1-AirPodTest.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A44E59692514033600EA3A5E = {
 			isa = PBXGroup;
 			children = (
 				A44E59742514033700EA3A5E /* M1-AirPodTest */,
 				A44E59732514033700EA3A5E /* Products */,
+				A17BE773BE694586CC084F26 /* Pods */,
+				F57DB634C62ADC66E3BA0DB4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +84,14 @@
 			path = "M1-AirPodTest";
 			sourceTree = "<group>";
 		};
+		F57DB634C62ADC66E3BA0DB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E846771230E55EB10645480A /* Pods_M1_AirPodTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A44E59862514033800EA3A5E /* Build configuration list for PBXNativeTarget "M1-AirPodTest" */;
 			buildPhases = (
+				2E9C36825A5D1872A10A29AB /* [CP] Check Pods Manifest.lock */,
 				A44E596E2514033700EA3A5E /* Sources */,
 				A44E596F2514033700EA3A5E /* Frameworks */,
 				A44E59702514033700EA3A5E /* Resources */,
+				5C95177B2DDC8C6589DDFF65 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E9C36825A5D1872A10A29AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-M1-AirPodTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C95177B2DDC8C6589DDFF65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-M1-AirPodTest/Pods-M1-AirPodTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-M1-AirPodTest/Pods-M1-AirPodTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-M1-AirPodTest/Pods-M1-AirPodTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A44E596E2514033700EA3A5E /* Sources */ = {
@@ -283,6 +352,7 @@
 		};
 		A44E59872514033800EA3A5E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FEF3F041894BD6801544BC4 /* Pods-M1-AirPodTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +372,7 @@
 		};
 		A44E59882514033800EA3A5E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CC629D0A73C7C6107D8788C /* Pods-M1-AirPodTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

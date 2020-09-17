@@ -62,5 +62,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSMotionUsageDescription</key>
+	<string>Accesses headtracking motion data for use of OSC and Mach1 Spatial transmission</string>
 </dict>
 </plist>
