@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -27,6 +27,7 @@
 		A44E597E2514033800EA3A5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A44E59812514033800EA3A5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A44E59832514033800EA3A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A44E59B025140F2600EA3A5E /* M1-AirPodTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "M1-AirPodTest.entitlements"; sourceTree = "<group>"; };
 		E846771230E55EB10645480A /* Pods_M1_AirPodTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M1_AirPodTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -48,7 +49,6 @@
 				1FEF3F041894BD6801544BC4 /* Pods-M1-AirPodTest.debug.xcconfig */,
 				3CC629D0A73C7C6107D8788C /* Pods-M1-AirPodTest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -73,6 +73,7 @@
 		A44E59742514033700EA3A5E /* M1-AirPodTest */ = {
 			isa = PBXGroup;
 			children = (
+				A44E59B025140F2600EA3A5E /* M1-AirPodTest.entitlements */,
 				A44E59752514033700EA3A5E /* AppDelegate.swift */,
 				A44E59772514033700EA3A5E /* SceneDelegate.swift */,
 				A44E59792514033700EA3A5E /* ViewController.swift */,
@@ -356,6 +357,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "M1-AirPodTest/M1-AirPodTest.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6ZETDT84RB;
 				INFOPLIST_FILE = "M1-AirPodTest/Info.plist";
@@ -365,6 +367,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mach1.M1-AirPodTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -376,6 +379,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "M1-AirPodTest/M1-AirPodTest.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6ZETDT84RB;
 				INFOPLIST_FILE = "M1-AirPodTest/Info.plist";
@@ -385,6 +389,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mach1.M1-AirPodTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
