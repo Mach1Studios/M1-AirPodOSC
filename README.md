@@ -1,7 +1,7 @@
 # M1-AirPodOSC
 
 ### Description
-Initial OSC transmitter for Apple AirPods Pro or any other device supported by (CoreMotion's Headphone Motion Manager)[https://developer.apple.com/documentation/coremotion/cmheadphonemotionmanager].
+Initial OSC transmitter for Apple AirPods Pro or any other device supported by [CoreMotion's Headphone Motion Manager](https://developer.apple.com/documentation/coremotion/cmheadphonemotionmanager).
 
 ### Setup
  - run `pod install`
@@ -10,7 +10,7 @@ Initial OSC transmitter for Apple AirPods Pro or any other device supported by (
 ### OSC Orientation Output
 Outputs with this Euler angle convention: 
 
-#### (Mach1 Internal Angle Standard)[https://dev.mach1.tech/#mach1-internal-angle-standard]: Orientation Euler
+#### [Mach1 Internal Angle Standard](https://dev.mach1.tech/#mach1-internal-angle-standard): Orientation Euler
 - Yaw[0]+ = rotate right [Range: 0->360 | -180->180]
 - Yaw[0]- = rotate left [Range: 0->360 | -180->180]
 - Pitch[1]+ = rotate up [Range: -90->90]
