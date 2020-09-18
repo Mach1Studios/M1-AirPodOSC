@@ -1,4 +1,4 @@
-# M1-MotionOSC
+# M1-AirPodOSC
 
 ### Description
 Initial OSC transmitter for Apple AirPods Pro or any other device supported by (CoreMotion's Headphone Motion Manager)[https://developer.apple.com/documentation/coremotion/cmheadphonemotionmanager].
