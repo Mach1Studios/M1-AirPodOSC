@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  M1-AirPodTest
+//  M1-AirPodOSC
 //
 //  Created by Dylan Marcus on 9/17/20.
 //

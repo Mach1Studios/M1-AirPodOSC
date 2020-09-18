@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  M1-AirPodTest
+//  M1-AirPodOSC
 //
 //  Created by Dylan Marcus on 9/17/20.
 //
@@ -60,7 +60,6 @@ class ViewController: UITableViewController, CMHeadphoneMotionManagerDelegate
         if motionManager.isDeviceMotionAvailable {
             motionManager.startDeviceMotionUpdates(to: OperationQueue.main) { (motion, error) in
                 print(error)
-                print(motion)
                 
                 if (yawEnabled){
                     degreesYaw = -(motion?.attitude.yaw)! * 180 / Double.pi

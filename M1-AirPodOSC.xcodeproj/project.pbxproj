@@ -7,19 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6FFDD47791DD0E8B93515B39 /* Pods_M1_AirPodOSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5711015FA6F7A2FA2FE220 /* Pods_M1_AirPodOSC.framework */; };
 		A44E59762514033700EA3A5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E59752514033700EA3A5E /* AppDelegate.swift */; };
 		A44E59782514033700EA3A5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E59772514033700EA3A5E /* SceneDelegate.swift */; };
 		A44E597A2514033700EA3A5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44E59792514033700EA3A5E /* ViewController.swift */; };
 		A44E597D2514033700EA3A5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44E597B2514033700EA3A5E /* Main.storyboard */; };
 		A44E597F2514033800EA3A5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A44E597E2514033800EA3A5E /* Assets.xcassets */; };
 		A44E59822514033800EA3A5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44E59802514033800EA3A5E /* LaunchScreen.storyboard */; };
-		D0AA33745E7B686799FFEEF3 /* Pods_M1_AirPodTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E846771230E55EB10645480A /* Pods_M1_AirPodTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1FEF3F041894BD6801544BC4 /* Pods-M1-AirPodTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M1-AirPodTest.debug.xcconfig"; path = "Target Support Files/Pods-M1-AirPodTest/Pods-M1-AirPodTest.debug.xcconfig"; sourceTree = "<group>"; };
-		3CC629D0A73C7C6107D8788C /* Pods-M1-AirPodTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M1-AirPodTest.release.xcconfig"; path = "Target Support Files/Pods-M1-AirPodTest/Pods-M1-AirPodTest.release.xcconfig"; sourceTree = "<group>"; };
-		A44E59722514033700EA3A5E /* M1-AirPodTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "M1-AirPodTest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FEF3F041894BD6801544BC4 /* Pods-M1-AirPodOSC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M1-AirPodOSC.debug.xcconfig"; path = "Target Support Files/Pods-M1-AirPodOSC/Pods-M1-AirPodOSC.debug.xcconfig"; sourceTree = "<group>"; };
+		3CC629D0A73C7C6107D8788C /* Pods-M1-AirPodOSC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M1-AirPodOSC.release.xcconfig"; path = "Target Support Files/Pods-M1-AirPodOSC/Pods-M1-AirPodOSC.release.xcconfig"; sourceTree = "<group>"; };
+		5D5711015FA6F7A2FA2FE220 /* Pods_M1_AirPodOSC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M1_AirPodOSC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44E59722514033700EA3A5E /* M1-AirPodOSC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "M1-AirPodOSC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A44E59752514033700EA3A5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A44E59772514033700EA3A5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A44E59792514033700EA3A5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,8 +28,7 @@
 		A44E597E2514033800EA3A5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A44E59812514033800EA3A5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A44E59832514033800EA3A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A44E59B025140F2600EA3A5E /* M1-AirPodTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "M1-AirPodTest.entitlements"; sourceTree = "<group>"; };
-		E846771230E55EB10645480A /* Pods_M1_AirPodTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M1_AirPodTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44E59B025140F2600EA3A5E /* M1-AirPodOSC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "M1-AirPodOSC.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0AA33745E7B686799FFEEF3 /* Pods_M1_AirPodTest.framework in Frameworks */,
+				6FFDD47791DD0E8B93515B39 /* Pods_M1_AirPodOSC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,8 +46,8 @@
 		A17BE773BE694586CC084F26 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1FEF3F041894BD6801544BC4 /* Pods-M1-AirPodTest.debug.xcconfig */,
-				3CC629D0A73C7C6107D8788C /* Pods-M1-AirPodTest.release.xcconfig */,
+				1FEF3F041894BD6801544BC4 /* Pods-M1-AirPodOSC.debug.xcconfig */,
+				3CC629D0A73C7C6107D8788C /* Pods-M1-AirPodOSC.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -55,7 +55,7 @@
 		A44E59692514033600EA3A5E = {
 			isa = PBXGroup;
 			children = (
-				A44E59742514033700EA3A5E /* M1-AirPodTest */,
+				A44E59742514033700EA3A5E /* M1-AirPodOSC */,
 				A44E59732514033700EA3A5E /* Products */,
 				A17BE773BE694586CC084F26 /* Pods */,
 				F57DB634C62ADC66E3BA0DB4 /* Frameworks */,
@@ -65,15 +65,15 @@
 		A44E59732514033700EA3A5E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A44E59722514033700EA3A5E /* M1-AirPodTest.app */,
+				A44E59722514033700EA3A5E /* M1-AirPodOSC.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A44E59742514033700EA3A5E /* M1-AirPodTest */ = {
+		A44E59742514033700EA3A5E /* M1-AirPodOSC */ = {
 			isa = PBXGroup;
 			children = (
-				A44E59B025140F2600EA3A5E /* M1-AirPodTest.entitlements */,
+				A44E59B025140F2600EA3A5E /* M1-AirPodOSC.entitlements */,
 				A44E59752514033700EA3A5E /* AppDelegate.swift */,
 				A44E59772514033700EA3A5E /* SceneDelegate.swift */,
 				A44E59792514033700EA3A5E /* ViewController.swift */,
@@ -82,13 +82,13 @@
 				A44E59802514033800EA3A5E /* LaunchScreen.storyboard */,
 				A44E59832514033800EA3A5E /* Info.plist */,
 			);
-			path = "M1-AirPodTest";
+			path = "M1-AirPodOSC";
 			sourceTree = "<group>";
 		};
 		F57DB634C62ADC66E3BA0DB4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E846771230E55EB10645480A /* Pods_M1_AirPodTest.framework */,
+				5D5711015FA6F7A2FA2FE220 /* Pods_M1_AirPodOSC.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -96,9 +96,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A44E59712514033700EA3A5E /* M1-AirPodTest */ = {
+		A44E59712514033700EA3A5E /* M1-AirPodOSC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A44E59862514033800EA3A5E /* Build configuration list for PBXNativeTarget "M1-AirPodTest" */;
+			buildConfigurationList = A44E59862514033800EA3A5E /* Build configuration list for PBXNativeTarget "M1-AirPodOSC" */;
 			buildPhases = (
 				2E9C36825A5D1872A10A29AB /* [CP] Check Pods Manifest.lock */,
 				A44E596E2514033700EA3A5E /* Sources */,
@@ -110,9 +110,9 @@
 			);
 			dependencies = (
 			);
-			name = "M1-AirPodTest";
-			productName = "M1-AirPodTest";
-			productReference = A44E59722514033700EA3A5E /* M1-AirPodTest.app */;
+			name = "M1-AirPodOSC";
+			productName = "M1-AirPodOSC";
+			productReference = A44E59722514033700EA3A5E /* M1-AirPodOSC.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,7 +129,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A44E596D2514033600EA3A5E /* Build configuration list for PBXProject "M1-AirPodTest" */;
+			buildConfigurationList = A44E596D2514033600EA3A5E /* Build configuration list for PBXProject "M1-AirPodOSC" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -142,7 +142,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A44E59712514033700EA3A5E /* M1-AirPodTest */,
+				A44E59712514033700EA3A5E /* M1-AirPodOSC */,
 			);
 		};
 /* End PBXProject section */
@@ -176,7 +176,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-M1-AirPodTest-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-M1-AirPodOSC-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -189,15 +189,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-M1-AirPodTest/Pods-M1-AirPodTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-M1-AirPodOSC/Pods-M1-AirPodOSC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-M1-AirPodTest/Pods-M1-AirPodTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-M1-AirPodOSC/Pods-M1-AirPodOSC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-M1-AirPodTest/Pods-M1-AirPodTest-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-M1-AirPodOSC/Pods-M1-AirPodOSC-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -353,19 +353,20 @@
 		};
 		A44E59872514033800EA3A5E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FEF3F041894BD6801544BC4 /* Pods-M1-AirPodTest.debug.xcconfig */;
+			baseConfigurationReference = 1FEF3F041894BD6801544BC4 /* Pods-M1-AirPodOSC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "M1-AirPodTest/M1-AirPodTest.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "M1-AirPodOSC/M1-AirPodOSC.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6ZETDT84RB;
-				INFOPLIST_FILE = "M1-AirPodTest/Info.plist";
+				INFOPLIST_FILE = "M1-AirPodOSC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mach1.M1-AirPodTest";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mach1.M1-AirPodOSC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -375,19 +376,20 @@
 		};
 		A44E59882514033800EA3A5E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CC629D0A73C7C6107D8788C /* Pods-M1-AirPodTest.release.xcconfig */;
+			baseConfigurationReference = 3CC629D0A73C7C6107D8788C /* Pods-M1-AirPodOSC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "M1-AirPodTest/M1-AirPodTest.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "M1-AirPodOSC/M1-AirPodOSC.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6ZETDT84RB;
-				INFOPLIST_FILE = "M1-AirPodTest/Info.plist";
+				INFOPLIST_FILE = "M1-AirPodOSC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mach1.M1-AirPodTest";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mach1.M1-AirPodOSC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -398,7 +400,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A44E596D2514033600EA3A5E /* Build configuration list for PBXProject "M1-AirPodTest" */ = {
+		A44E596D2514033600EA3A5E /* Build configuration list for PBXProject "M1-AirPodOSC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A44E59842514033800EA3A5E /* Debug */,
@@ -407,7 +409,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A44E59862514033800EA3A5E /* Build configuration list for PBXNativeTarget "M1-AirPodTest" */ = {
+		A44E59862514033800EA3A5E /* Build configuration list for PBXNativeTarget "M1-AirPodOSC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A44E59872514033800EA3A5E /* Debug */,
