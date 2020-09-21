@@ -10,6 +10,10 @@ For more information about the Mach1 Spatial framework and using it to create yo
 ### Setup
  - run `pod install`
  - open .xcworkspace file
+ 
+#### Requirements
+ - Xcode Beta Preview 6 or higher
+ - iOS 14 or higher
 
 ### OSC Orientation Output
 Outputs with this Euler angle convention: 
