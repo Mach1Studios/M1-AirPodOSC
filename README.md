@@ -12,7 +12,7 @@ For more information about the Mach1 Spatial framework and using it to create yo
  - open .xcworkspace file
  
 #### Requirements
- - Xcode Beta Preview 6 or higher
+ - Xcode 12 Beta Preview 6 or higher (including Xcode 12)
  - iOS 14 or higher
 
 ### OSC Orientation Output
