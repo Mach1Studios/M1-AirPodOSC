@@ -9,16 +9,16 @@ import UIKit
 import CoreMotion
 import SwiftOSC
 
-// OSC Setup
-var client = OSCClient(address: "localhost", port: 9901)
+// OSC vars
+var ipAddress = "localhost"
+var port = 9901
+
+var client = OSCClient(address: ipAddress, port: port)
 var bIgnoreDeviceIMU = false;
 var degreesYaw = 0.0
 var degreesPitch = 0.0
 var degreesRoll = 0.0
 
-// OSC vars
-var ipAddress = "localhost"
-var port = 9901
 var yawEnabled = true
 var pitchEnabled = false
 var rollEnabled = false
